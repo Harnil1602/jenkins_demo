@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Deploy') {
             steps {
-                sh 'scp index.html user@your-remote-server:/path/to/remote/deployment'
+                sh 'scp index.html Harnil@:65.2.34.109/var/www/html'
             }
         }
     }
