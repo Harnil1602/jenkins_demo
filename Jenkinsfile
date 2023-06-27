@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Deploy') {
             steps {
-                sh 'scp index.html Harnil@:65.2.34.109/var/www/html'
+                sh 'scp index.html Harnil@:13.232.50.20/var/www/html'
             }
         }
     }
